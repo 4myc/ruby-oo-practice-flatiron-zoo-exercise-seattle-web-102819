@@ -23,6 +23,7 @@ class Zoo #has_many, single source of truth
     def animal_species
         animals.map {|a| a.animal.species}.uniq
     end
+    # retrieves animals first, then the species (a.animal.species)
 
     def find_by_species(species)
         Animal.all.select {|a| a.species == species}
@@ -32,6 +33,8 @@ class Zoo #has_many, single source of truth
     def animal_nicknames
         animals.map {|a| a.animal.nickname}
     end
+    # retrieves animals first, then the nickname (a.animal.nickname)
+
 
     #return an array of all the zoos within that location
     def self.find_by_location(location)

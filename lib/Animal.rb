@@ -23,5 +23,4 @@ class Animal #belongs_to
     def self.find_by_species(species)
         @@all.select {|s| s.species == species}
     end
-    
 end
