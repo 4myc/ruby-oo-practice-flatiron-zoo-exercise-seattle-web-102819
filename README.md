@@ -17,23 +17,23 @@ _Keep in mind that in order to properly build out the relationships between an `
 ![Flatiron Zoo](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/flatiron-zoo-exercise/Image_124_ZooGraphic.png)
 
 ### Zoo Class
-- A `zoo` should be initialized with a name and a location, which should both be passed as strings.
-- `Zoo#location` should return the location of the zoo instance.
-- `Zoo#name` should return the name of the zoo instance.
-- `Zoo.all` should return an array of all the zoo instances.
-- `Zoo#animals` should return all the animals that a specific instance of a zoo has.
-- `Zoo#animal_species` should return an array of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** array).
-- `Zoo#find_by_species` should take in an animal's species as an argument and return an array of all the animals in that zoo, which are of that species.
+x- A `zoo` should be initialized with a name and a location, which should both be passed as strings.
+x- `Zoo#location` should return the location of the zoo instance.
+x- `Zoo#name` should return the name of the zoo instance.
+x- `Zoo.all` should return an array of all the zoo instances.
+x- `Zoo#animals` should return all the animals that a specific instance of a zoo has.
+x- `Zoo#animal_species` should return an array of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** array).
+x- `Zoo#find_by_species` should take in an animal's species as an argument and return an array of all the animals in that zoo, which are of that species.
 - `Zoo#animal_nicknames` should return an array of all the nicknames of animals that a specific instance of a zoo has.
-- `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location.
+x- `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location.
 
 ### Animal Class
-- An `animal` should be instantiated with the species (e.g. "Cat", "Dog", "Rat"), a numerical weight and a nickname. Keep in mind that the animal's species and nickname should not be able to change, but its weight can.
-- `Animal#nickname` should return the nickname of the animal.
-- `Animal#weight` should return the weight of the animal.
-- `Animal#species` should return the species of the animal.
-- `Animal.all` should return an array of all the animal instances.
-- `Animal#zoo` should return the zoo instance that the instance belongs to.
-- `Animal.find_by_species` should take in an animal's species as an argument and return an array of all the animals, which are of that species.
+x- An `animal` should be instantiated with the species (e.g. "Cat", "Dog", "Rat"), a numerical weight and a nickname. Keep in mind that the animal's species and nickname should not be able to change, but its weight can.
+x- `Animal#nickname` should return the nickname of the animal.
+x- `Animal#weight` should return the weight of the animal.
+x- `Animal#species` should return the species of the animal.
+x- `Animal.all` should return an array of all the animal instances.
+x- `Animal#zoo` should return the zoo instance that the instance belongs to.
+x- `Animal.find_by_species` should take in an animal's species as an argument and return an array of all the animals, which are of that species.
 
 There are no `rspec` files, so it's up to you to test your code within the `run.rb` file.
